@@ -3,3 +3,6 @@
 
 # ignore jupyter notebook checkpoints
 .ipynb_checkpoints/
+
+# ignore pycache
+**/__pycache__/
