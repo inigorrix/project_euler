@@ -10,8 +10,9 @@ function prime_factors(x)
     primes = [2]
     i = 2
     x = get_factor(x, i)
+    i = 1
     while i < x
-        i += 1
+        i += 2
         for j = primes
             if i%j==0
                 break
