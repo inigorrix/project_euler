@@ -1,4 +1,4 @@
-lines = readlines("0067_triangle.txt")
+lines = readlines("problem_0067_triangle.txt")
 
 # Convert each line into a vector of integers and store in a vector of vectors
 data = [parse.(Int, split(line)) for line in lines]
