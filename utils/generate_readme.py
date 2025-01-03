@@ -97,7 +97,7 @@ latest_problem = r[a+22:a+25]
 # Set the desired number of rows and columns
 total_numbers = int(latest_problem)
 numbers_per_table = 200
-numbers_per_row = 20
+numbers_per_row = 10
 
 # Dynamically determine the base directory (one level up from the script)
 base_directory = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
